@@ -10,6 +10,7 @@
         <title>Portfolio</title>
     </head>
     <body>
+        <div id="snowfall"></div>
         <ul class="socialIcons">
             <li><a href="http://github.com/Sebastien-M/"><i class="fa fa-github-square fa-2x" aria-hidden="true"></i></a></li>
             <li><a href="https://www.facebook.com/sebastien.manbada"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a></li>
@@ -17,6 +18,7 @@
             <li><a href=""><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></a></li>
         </ul>
         <header>
+            
             <div class="photo">
                 <p>photo</p>
                 <!--<img src="" alt="">-->
@@ -46,5 +48,8 @@
                 ?>
             </section>
         </main>
+        <!--<script src="https://npmcdn.com/particlesjs@2.0.2/dist/particles.min.js"></script>-->
+        <script src="//cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+        <script src="js/particles.js"></script>
     </body>
 </html>

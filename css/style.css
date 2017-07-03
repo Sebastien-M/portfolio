@@ -19,7 +19,7 @@ ul{
 }
 li>a{
     text-decoration: none;
-    color:white;
+    color:black;
 }
 .socialIcons{
     position: absolute;
@@ -31,7 +31,7 @@ li>a{
     margin:5px;
 }
 header{
-    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../img/background.jpg') no-repeat center fixed;
+    /*background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../img/background.jpg') no-repeat center fixed;*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -42,7 +42,7 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color:white;
+    color:black;
 }
 header>h1,h3{
     margin:0;
@@ -61,4 +61,17 @@ header>h3{
     background-color: black;
     height:120px;
     width:120px;
+    border:2px solid white;
+}
+/*.background {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}*/
+#snowfall {
+    height: 100%;
+    width:100%;
+    position: absolute;
 }
