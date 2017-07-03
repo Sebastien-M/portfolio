@@ -10,7 +10,7 @@
         <title>Portfolio</title>
     </head>
     <body>
-        <div id="snowfall"></div>
+        <div id="particles"></div>
         <ul class="socialIcons">
             <li><a href="http://github.com/Sebastien-M/"><i class="fa fa-github-square fa-2x" aria-hidden="true"></i></a></li>
             <li><a href="https://www.facebook.com/sebastien.manbada"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a></li>
@@ -27,8 +27,8 @@
             <h1 class="mainTitle">Sébastien Mandaba</h1>
             <h3>Développeur web junior</h3>
             <div class="mainButtons">
-                <button class="">A propos de moi</button>
-                <button>Téléchargez mon CV</button>
+                <button class="buttonTop" id="firstButton">A propos de moi</button>
+                <button class="buttonTop" id="secondButton">Téléchargez mon CV</button>
             </div>
 
         </header>

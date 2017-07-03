@@ -22,22 +22,20 @@ li>a{
     color:black;
 }
 .socialIcons{
+    pointer-events: auto;
     position: absolute;
     width: 100%;
     display: flex;
     justify-content: flex-end;
 }
 .socialIcons>li{
-    margin:5px;
+    padding:0 5px 0 5px;
 }
 header{
-    /*background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../img/background.jpg') no-repeat center fixed;*/
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    pointer-events: none;
+    position:absolute;
     width:100%;
-    height: 100vh;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -59,9 +57,31 @@ header>h3{
     color:white;
     text-align: center;
     background-color: black;
-    height:120px;
-    width:120px;
-    border:2px solid white;
+    height:170px;
+    width:170px;
+    border:2px solid black;
+}
+.photo>img{
+    height:100%;
+    width:100%;
+}
+.buttonTop{
+    pointer-events: auto;
+}
+
+.buttonTop{
+    border:none;
+    width:150px;
+    height:40px;
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid black;
+    transition:0.5s;
+}
+.buttonTop:hover{
+    cursor: pointer;
+    background-color: black;
+    color:white;
 }
 /*.background {
     position: absolute;
@@ -70,8 +90,11 @@ header>h3{
     left: 0;
     z-index: 0;
 }*/
-#snowfall {
-    height: 100%;
+#particles {
+    height: 99%;
     width:100%;
     position: absolute;
+}
+main{
+    display: none;
 }
