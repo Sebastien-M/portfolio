@@ -19,7 +19,15 @@ ul{
 }
 li>a{
     text-decoration: none;
+    
+}
+.fa{
     color:black;
+    transition: 0.5s;
+}
+.fa:hover{
+    color:white;
+    text-shadow: 1px 0 0 #000, -1px 0 0 #000, 0 1px 0 #000, 0 -1px 0 #000, 1px 1px #000;
 }
 .socialIcons{
     pointer-events: auto;
@@ -67,6 +75,7 @@ header>h3{
 }
 .buttonTop{
     pointer-events: auto;
+    margin:0 2px 0 2px;
 }
 
 .buttonTop{
@@ -94,6 +103,11 @@ header>h3{
     height: 99%;
     width:100%;
     position: absolute;
+}
+.mainButtons{
+    width:100%;
+    display: flex;
+    justify-content: center;
 }
 main{
     display: none;
