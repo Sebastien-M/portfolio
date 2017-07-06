@@ -51,5 +51,6 @@
         <!--<script src="https://npmcdn.com/particlesjs@2.0.2/dist/particles.min.js"></script>-->
         <script src="//cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
         <script src="js/particles.js"></script>
+        <script src="js/main.js"></script>
     </body>
 </html>

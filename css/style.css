@@ -35,9 +35,13 @@ li>a{
     width: 100%;
     display: flex;
     justify-content: flex-end;
+    transition:1s;
 }
 .socialIcons>li{
     padding:0 5px 0 5px;
+}
+#particles{
+    transition: 1s;
 }
 header{
     pointer-events: none;
@@ -49,6 +53,7 @@ header{
     justify-content: center;
     align-items: center;
     color:black;
+    transition: 1s;
 }
 header>h1,h3{
     margin:0;
@@ -86,6 +91,10 @@ header>h3{
     background-color: white;
     border: 1px solid black;
     transition:0.5s;
+    outline:none;
+}
+.buttonTop::-moz-focus-inner {
+  border: 0;
 }
 .buttonTop:hover{
     cursor: pointer;
