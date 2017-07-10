@@ -72,11 +72,14 @@ header>h3{
     background-color: black;
     height:170px;
     width:170px;
-    border:2px solid black;
+    border:1px solid white;
 }
 .photo>img{
     height:100%;
     width:100%;
+}
+.mainTitle{
+    text-shadow: 1px 0 0 #FFF, -1px 0 0 #FFF, 0 1px 0 #FFF, 0 -1px 0 #FFF, 1px 1px #FFF;
 }
 .buttonTop{
     pointer-events: auto;
@@ -118,6 +121,8 @@ header>h3{
     display: flex;
     justify-content: center;
 }
+
+/*-------------------------------------------SCREEN 2-------------------------------------------------------*/
 main{
     display: none;
 }
