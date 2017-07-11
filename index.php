@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="fr">
     <head>
         <meta charset="UTF-8">
@@ -18,34 +18,29 @@
             <li><a href=""><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></a></li>
         </ul>
         <header>
-            
             <div class="photo">
                 <p>photo</p>
                 <!--<img src="" alt="">-->
             </div>
-
             <h1 class="mainTitle">Sébastien Mandaba</h1>
             <h3>Développeur web junior</h3>
             <div class="mainButtons">
                 <button class="buttonTop" id="firstButton">A propos de moi</button>
                 <button class="buttonTop" id="secondButton">Téléchargez mon CV</button>
             </div>
-
         </header>
-        <main>
+        <main class="screen2">
             <nav>
-                <ul>
-                    <li>A propos</li>
-                    <li>Compétences</li>
-                    <li>Projets</li>
-                    <li>Contact</li>
-                    <li><button>Télécharger mon cv</button></li>
+                <ul class="menu-nav">
+                   <a href=""><li>A propos</li></a>
+                   <a href=""><li>Compétences</li></a>
+                   <a href=""><li>Projets</li></a>
+                   <a href=""><li>Contact</li></a>
+                   <li><button>Télécharger mon cv</button></li>
                 </ul>
             </nav>
-
-            <section class="choixMenu">
-                <?php
-                ?>
+            <section class="choix">
+                
             </section>
         </main>
         <!--<script src="https://npmcdn.com/particlesjs@2.0.2/dist/particles.min.js"></script>-->

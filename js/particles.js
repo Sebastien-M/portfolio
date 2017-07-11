@@ -6,10 +6,6 @@
 
 
 window.onload = function () {
-//    Particles.init({
-//        selector: '.background',
-//        color: '#ACB024'
-//    });
 
     particlesJS("particles", {
         "particles": {
