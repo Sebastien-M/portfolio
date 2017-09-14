@@ -7,20 +7,16 @@
 let header = document.body.querySelector('header');
 let particles = document.body.querySelector("#particles");
 let icons = document.body.querySelector(".socialIcons");
-let main = document.body.querySelector("main");
-let screen2 = document.body.querySelector(".screen2");
+
 
 document.body.querySelector('#firstButton').addEventListener('click', function (e) {
     header.style.opacity = 0;
     particles.style.opacity = 0;
     icons.style.opacity = 0;
+    particles.style.opacity = 0;
     setTimeout(function () {
         header.remove();
         particles.remove();
         icons.remove();
-        main.style.display = "flex";
     }, 1000);
-    setTimeout(function(){
-        screen2.style.opacity = 1;
-    },1500);
 });

@@ -8,6 +8,7 @@
     <script src="https://use.fontawesome.com/d0fbf177e4.js"></script>
     <link rel="stylesheet" href="css/style.css" />
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css">
     <title>Portfolio</title>
 </head>
 
@@ -31,76 +32,19 @@
             <button class="buttonTop" id="secondButton">Téléchargez mon CV</button>
         </div>
     </header>
-    <main class="screen2">
-        <section class="leftPannel">
-            <h2>Sébastien Mandaba</h2>
-            <ul id="menu">
-                <a class="menulink" href=""><li class="menuitem">A propos de moi</li></a>
-                <a class="menulink" href=""><li class="menuitem">Projets</li></a>
-                <a class="menulink" href=""><li class="menuitem">Télécharger mon CV</li></a>
-            </ul>
-        </section>
-        <section class="rightPannel">
-            <h1>Menu Selected Name</h1>
-            <ul>
-                <li></li>
-                <li>qqsmdsqkd</li>
-                <li>qqsmdsqkd</li>
-                <li>qqsmdsqkd</li>
-                <li>qqsmdsqkd</li>
-                <li>qqsmdsqkd</li>
-                <li>qqsmdsqkd</li>
-                <li>qqsmdsqkd</li>
-                <li>qqsmdsqkd</li>
-                <li>qqsmdsqkd</li>
-                <li>qqsmdsqkd</li>
-                <li>qqsmdsqkd</li>
-                <li>qqsmdsqkd</li>
-                <li>qqsmdsqkd</li>
-                <li>qqsmdsqkd</li>
-                <li>qqsmdsqkd</li>
-                <li>qqsmdsqkd</li>
-                <li>qqsmdsqkd</li>
-                <li>qqsmdsqkd</li>
-                <li>qqsmdsqkd</li>
-                <li>qqsmdsqkd</li>
-                <li>qqsmdsqkd</li>
-                <li>qqsmdsqkd</li>
-                <li>qqsmdsqkd</li>
-                <li>qqsmdsqkd</li>
-                <li>qqsmdsqkd</li>
-                <li>qqsmdsqkd</li>
-                <li>qqsmdsqkd</li>
-                <li>qqsmdsqkd</li>
-                <li>qqsmdsqkd</li>
-                <li>qqsmdsqkd</li>
-                <li>qqsmdsqkd</li>
-                <li>qqsmdsqkd</li>
-                <li>qqsmdsqkd</li>
-                <li>qqsmdsqkd</li>
-                <li>qqsmdsqkd</li>
-                <li>qqsmdsqkd</li>
-                <li>qqsmdsqkd</li>
-                <li>qqsmdsqkd</li>
-                <li>qqsmdsqkd</li>
-                <li>qqsmdsqkd</li>
-                <li>qqsmdsqkd</li>
-                <li>qqsmdsqkd</li>
-                <li>qqsmdsqkd</li>
-                <li>qqsmdsqkd</li>
-                <li>qqsmdsqkd</li>
-                <li>qqsmdsqkd</li>
-                <li>qqsmdsqkd</li>
-                <li>qqsmdsqkd</li>
-                <li>qqsmdsqkd</li>
-            </ul>
-        </section>
-    </main>
     <!--<script src="https://npmcdn.com/particlesjs@2.0.2/dist/particles.min.js"></script>-->
     <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
     <script src="js/particles.js"></script>
     <script src="js/main.js"></script>
 </body>
+<main>
+    <section id="leftPannel">
+
+    </section>
+    <section id="rightPannel">
+
+    </section>
+</main>
 
 </html>

@@ -112,7 +112,7 @@ header>h3{
     z-index: 0;
 }*/
 #particles {
-    height: 99%;
+    height: 99.4%;
     width:100%;
     position: absolute;
 }
@@ -123,50 +123,15 @@ header>h3{
 }
 
 /*-------------------------------------------SCREEN 2-------------------------------------------------------*/
-
-.screen2{
-    /* display: flex; */
-    opacity:0;
-    transition: 0.5s;
-}
 main{
-    display: none;
+    display: flex;
 }
-.leftPannel{
-    text-align: center;
+#leftPannel{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    position: fixed;
-    height: 100%;
-    background-color: black;
-    color:white;
-    width:20%;
+    align-items:center;
+    height: 100%; 
 }
-.rightPannel{
-    background: linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url('../img/background.jpg') no-repeat center fixed;    
-    margin-left:20%;
-    width: 80%;
-    color:black;
-}
-#menu{
-    margin:0;
-    padding: 0;
-    width: 100%;
-    list-style: none;
-    text-align: center;
-    color:white;
-}
-.menulink{
-    text-decoration: none;
-    color:white;
-}
-.menuitem{
-    padding: 10px 0 10px 0;
-    color:white;
-    transition: 0.5s;
-}
-.menuitem:hover{
-    color:black;
-    background-color: white;
+#rightPannel{
+
 }
