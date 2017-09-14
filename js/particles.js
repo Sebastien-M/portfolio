@@ -16,6 +16,7 @@ window.onload = function () {
                     "value_area": 473.4885849793636
                 }
             },
+
             "color": {
                 "value": "#ffffff"
             },
