@@ -10,13 +10,13 @@ let icons = document.body.querySelector(".socialIcons");
 
 
 document.body.querySelector('#firstButton').addEventListener('click', function (e) {
-    header.style.opacity = 0;
-    particles.style.opacity = 0;
-    icons.style.opacity = 0;
-    particles.style.opacity = 0;
-    setTimeout(function () {
-        header.remove();
-        particles.remove();
-        icons.remove();
-    }, 1000);
+    // header.style.opacity = 0;
+    // particles.style.opacity = 0;
+    // icons.style.opacity = 0;
+    // particles.style.opacity = 0;
+    // setTimeout(function () {
+    //     header.remove();
+    //     particles.remove();
+    //     icons.remove();
+    // }, 1000);
 });
